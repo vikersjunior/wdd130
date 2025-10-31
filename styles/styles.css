@@ -1,8 +1,15 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+nav{
+    background-color: #ffe608;
+    padding: 1rem;
+}
+nav a{
+    color: #000;
+    display: block;
+}
+
+h1{
+    color: #000;
+}
 
 main{
     max-width: 840px;
@@ -14,7 +21,7 @@ main img{
 aside{
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0, 0, 0 / 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
