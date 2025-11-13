@@ -1,0 +1,101 @@
+:root{
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Playfair Display", "Georgia", serif;
+    --body-font: "Inter", "Arial", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article{
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.socialmedia a{
+    text-decoration: none;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    position: absolute;
+    top: 1.3rem;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+article{
+    position: absolute;
+    bottom: 1.3rem;
+    left: 1.3rem;
+    right: 1.3rem;
+    padding: 1rem;
+    background-color: var(--accent2-color);
+}
+
+.hero article img{
+    float: right;
+    width: 8rem;
+    height: auto;
+}
+
+section {
+    margin: 1.5rem 0 1.5rem 0;
+    padding: 0;
+    
+}
+
+section h2{
+    padding: 0.5rem;
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+footer{
+    padding: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+footer p{
+    font-size: .7rem;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav a img{
+    width: 1.5rem;
+}
