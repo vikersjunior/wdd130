@@ -67,8 +67,9 @@ nav, p, section, article{
     background-color: var(--accent2-color);
 }
 
-article h3{
+.hero article h3{
     font-family: var(--heading-font);
+    color: var(--accent1-color);
     margin: 0 1.5rem 0 1.5rem;
 }
 
@@ -91,6 +92,7 @@ section {
 section h2{
     padding: 0.5rem;
     background-color: var(--accent2-color);
+    color: var(--accent1-color);
     text-align: center;
 }
 
