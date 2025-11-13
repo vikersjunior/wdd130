@@ -41,13 +41,7 @@ nav, p, section, article{
     position: relative;
 }
 
-.hero img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1{
+.hero h1{
     position: absolute;
     top: 1.3rem;
     width: 100%;
@@ -58,13 +52,28 @@ h1{
     color: #fff;
 }
 
-article{
+.hero img{
+    width: 100%;
+    height: auto;
+}
+
+
+.hero article{
     position: absolute;
     bottom: 1.3rem;
     left: 1.3rem;
     right: 1.3rem;
     padding: 1rem;
     background-color: var(--accent2-color);
+}
+
+article h3{
+    font-family: var(--heading-font);
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+article p{
+    margin: 0 1rem;
 }
 
 .hero article img{
@@ -81,7 +90,7 @@ section {
 
 section h2{
     padding: 0.5rem;
-    background-color: var(--secondary-color);
+    background-color: var(--accent2-color);
     text-align: center;
 }
 
