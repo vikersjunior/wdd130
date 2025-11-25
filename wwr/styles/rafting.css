@@ -267,6 +267,7 @@ footer nav.socialmedia {
 
 .map iframe {
     display: block;
+    border: none;
 }
 
 /* Form Styling */
