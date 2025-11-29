@@ -370,11 +370,11 @@ button[type="submit"] {
 /* Employee Section */
 .employee-section {
     padding: 40px 20px;
-    background-color: var(--white);
+    background-color: var(--lightbg-color);
 }
 
 .employee-section h2 {
-    background-color: var(--white);
+    background-color: var(--lightbg-color);
     color: var(--accent1-color);
 }
 
