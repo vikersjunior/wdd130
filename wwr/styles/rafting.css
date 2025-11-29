@@ -307,6 +307,10 @@ form {
     margin-bottom: 1rem;
 }
 
+.bg-none{
+    background-color: var(--white);
+}
+
 /* Inputs and Textarea */
 input[type="text"],
 input[type="email"],
@@ -366,11 +370,11 @@ button[type="submit"] {
 /* Employee Section */
 .employee-section {
     padding: 40px 20px;
-    background-color: var(--lightbg-color);
+    background-color: var(--white);
 }
 
 .employee-section h2 {
-    background-color: var(--lightbg-color);
+    background-color: var(--white);
     color: var(--accent1-color);
 }
 
