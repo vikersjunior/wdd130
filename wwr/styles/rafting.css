@@ -202,7 +202,7 @@ footer nav.socialmedia {
 }
 
 .cta-section h2 {
-    color: var(--accent1-color);
+    /* color: var(--accent1-color); removed (inherited from section h2) */
     margin-bottom: 1rem;
 }
 
@@ -231,10 +231,10 @@ footer nav.socialmedia {
 }
 
 .features-section h2 {
-    text-align: center;
-    margin-bottom: 2rem;
+    /* text-align: center; removed (inherited from section h2) */
+    /* margin-bottom: 2rem; removed (inherited from section h2) */
     padding: 1rem;
-    color: var(--accent1-color);
+    /* color: var(--accent1-color); removed (inherited from section h2) */
 }
 
 .features-grid {
@@ -573,11 +573,14 @@ button[type="submit"] {
     background-color: var(--lightbg-color);
 }
 
+/* Removed: 
 .employee-section h2 {
-    text-align: center;
-    background-color: var(--lightbg-color);
+    text-align: center; 
+    background-color: var(--lightbg-color); 
     color: var(--accent1-color);
-}
+} 
+as all properties are redundant or inherited from parent selectors.
+*/
 
 .employee-container {
     display: grid;
